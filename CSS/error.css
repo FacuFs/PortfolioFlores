@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+  /*ERROR*/
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-image: url("../img/fondo404.png");
+  background-image: fixed;
+  background-repeat: no-repeat;
+}
+
+.texto{
+  position: absolute;
+  top: 50vh;
+  left: 5vh;
+}
+.botonVolver{
+  width: 10vh;
+  height: 5vh;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 55vh;
+  left: 68vh;
+}
+
+.botonVolver:hover{
+  background-image: linear-gradient(to top, #73bfbf 0%, #ededd0 100%);
+  transform: rotate(4deg); 
+}
+
+.botonVolver p{
+  color: #143b52; 
+}
+
+a{
+  text-decoration: none;
+}
