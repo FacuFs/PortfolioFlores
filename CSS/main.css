@@ -98,6 +98,9 @@ h1 {
   border-bottom: 4px double #a6d6d6;
   border-radius: 40px 40px 40px 10px; }
 
+.carousel-item {
+  transition: transform 2s ease-in-out; }
+
 /*CONOCIMIENTOS*/
 .contenido__conocimientos {
   display: grid;
@@ -229,9 +232,6 @@ h1 {
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px; }
 
-
-
-
 @media (min-width: 600px) {
   .contenido__conocimientos {
     display: grid;
@@ -280,6 +280,3 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 3px 3px; } }
-
-.carousel-item {
-  transition: transform 2s ease-in-out; }
