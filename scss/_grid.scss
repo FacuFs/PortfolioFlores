@@ -13,7 +13,7 @@ h1{
 .contenidoIndex{
 	display: grid;
 	grid-row-gap: 30px;
-	grid-template-column: 1fr;
+	grid-template-columns: 1fr;
 	grid-template-rows: repeat(auto,auto);
 	h2{
 
@@ -79,7 +79,7 @@ h1{
 	margin: 10px auto;
 	width: 98%;
 	grid-row-gap: 10px;
-	grid-template-column: 1fr;
+	grid-template-columns: 1fr;
 	grid-template-rows: repeat(5,auto);
 	img{
 		width: 100%;
