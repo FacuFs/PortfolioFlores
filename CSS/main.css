@@ -3,7 +3,8 @@
 /*GENERAL*/
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  text-shadow: 3px 1px 6px #969696; }
 
 html body {
   background-color: #ededd0; }
@@ -88,7 +89,7 @@ h1 {
 .contenidoIndex {
   display: grid;
   grid-row-gap: 30px;
-  grid-template-column: 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: repeat(auto, auto); }
   .contenidoIndex h2 {
     text-align: center;
@@ -137,7 +138,7 @@ h1 {
   margin: 10px auto;
   width: 98%;
   grid-row-gap: 10px;
-  grid-template-column: 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: repeat(5, auto); }
   .contenido__proyectos img {
     width: 100%;
@@ -215,29 +216,29 @@ h1 {
   justify-content: center; }
 
 /*EXPERIENCIA*/
-.contenidoExp__tab {
+.contenedorExp {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1.3fr 0.7fr;
-  gap: 0px 5px;
-  width: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr;
   justify-content: center; }
 
 .tab__titulo {
-  width: 30vh;
-  height: 18vh;
+  width: 100%;
+  height: 25vh;
   background-color: #a6d6d6;
   text-align: center;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px; }
 
 .tab__texto {
-  width: 15vh;
-  height: 7vh;
+  width: 100%;
+  height: 100%;
   background-color: #a58faa;
   text-align: center;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px; }
+  .tab__texto li {
+    list-style: none; }
 
 @media (min-width: 600px) {
   .contenido__conocimientos {
@@ -249,7 +250,31 @@ h1 {
     list-style: none; }
     .contenido__conocimientos li {
       height: 20vh;
-      width: 20vh; } }
+      width: 20vh; }
+  .contenidoExp__tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.3fr 0.7fr;
+    gap: 0px 5px;
+    width: 100vh;
+    justify-content: center;
+    width: 100%; }
+  .tab__titulo {
+    width: 100%;
+    height: 25vh;
+    background-color: #a6d6d6;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px; }
+  .tab__texto {
+    width: 100%;
+    height: 100%;
+    background-color: #a58faa;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px; }
+    .tab__texto li {
+      list-style: none; } }
 
 @media (min-width: 830px) {
   .contenidoIndex {
@@ -281,7 +306,33 @@ h1 {
     .contenido__proyectos img {
       transition: transform .2s; }
     .contenido__proyectos img:hover {
-      transform: scale(1.5); } }
+      transform: scale(1.5); }
+  .contenedorExp {
+    display: flex;
+    justify-content: space-around; }
+  .contenidoExp__tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1.3fr 0.7fr;
+    gap: 0px 5px;
+    width: 100vh;
+    justify-content: center; }
+  .tab__titulo {
+    width: 30vh;
+    height: 18vh;
+    background-color: #a6d6d6;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px; }
+  .tab__texto {
+    width: 100%;
+    height: 100%;
+    background-color: #a58faa;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px; }
+    .tab__texto li {
+      list-style: none; } }
 
 @media (min-width: 1200px) {
   .contenido__proyectos {
