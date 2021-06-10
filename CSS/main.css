@@ -48,11 +48,22 @@ html body {
   background-image: linear-gradient(to top, #73bfbf 0%, #a6d6d6 100%);
   transform: rotate(4deg); }
 
+.selectResponsive {
+  border-bottom: 1px solid #143b52; }
+
 .header__nav {
   display: none; }
 
 .btn-secondary:hover {
   background-color: #143b52; }
+
+a {
+  text-decoration: none;
+  color: #143b52; }
+
+.menuHamburguesa li {
+  list-style: none;
+  font-family: 'Poppins', sans-serif; }
 
 @media (min-width: 830px) {
   .header {
@@ -251,6 +262,8 @@ h1 {
     .contenido__conocimientos li {
       height: 20vh;
       width: 20vh; }
+      .contenido__conocimientos li h3 {
+        font-size: medium; }
   .contenidoExp__tab {
     display: grid;
     grid-template-columns: 1fr 1fr;

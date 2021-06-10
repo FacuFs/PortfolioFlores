@@ -208,8 +208,13 @@ h1{
 		li{
 			height: 20vh;
 			width: 20vh;
+			h3{
+			font-size: medium;
+			}
 		}
+		
 	}
+
 	.contenidoExp__tab{
 		display: grid;
 		  grid-template-columns: 1fr 1fr;

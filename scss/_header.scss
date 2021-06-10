@@ -51,6 +51,9 @@ $morado:#a58faa;
 	background-image: linear-gradient(to top, #73bfbf 0%, #a6d6d6 100%);
 	transform: rotate(4deg);
 }
+.selectResponsive{
+	border-bottom: 1px solid $azulOsc;
+}
 
 
 .header__nav{
@@ -61,6 +64,20 @@ $morado:#a58faa;
 .btn-secondary:hover{
 		background-color: $azulOsc;
 	}
+
+a{
+	text-decoration: none;
+	color:$azulOsc;
+}
+
+.menuHamburguesa{
+	li{
+	list-style: none;
+	font-family: 'Poppins', sans-serif;
+	
+	
+}
+}
 
 
 

@@ -18,23 +18,24 @@
 			
 			<a href="index.html" ><img src="img/logo.svg" alt="logotipo" class="header__logo"></a>
 
-			<div class="container-fluid col-2 justify-content-center">
-				<div class="row" >
-					<div class="dropdown">
-					  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-					    Menu
-					  </button>
-					  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-					    	<li ><a class="dropdown-item" href="index.html"><b>Sobre Mi</b></a></li>
-							<li><a class="dropdown-item" href="conocimientos.html"><b>Conocimientos</b></a></li>
-							<li><a class="dropdown-item" href="proyectos.html"><b>Proyectos</b></a></li>
-							<li><a class="dropdown-item active" href="experiencia.html"><b>Experiencia</b></a></li>
-							<li><a class="dropdown-item" href="contacto.html"><b>Contacto</b> </a></li>
-					  </ul>
-					</div>
+			<div class="collapse container-fluid" id="navbarToggleExternalContent">
+				<div>
+					<ul class="menuHamburguesa">
+						<li><a href="index.html"><b>Sobre Mi</b></a></li>
+						<li><a href="conocimientos.html"><b>Conocimientos</b></a></li>
+						<li><a href="proyectos.html"><b>Proyectos</b></a></li>
+						<li class="selectResponsive"><a href="experiencia.html"><b>Experiencia</b></a></li>
+						<li><a href="contacto.html"><b>Contacto</b></a></li>
+					</ul>
 				</div>
-			</div>			
-
+			</div>
+			<nav class="navbar navbar-dark ">
+				<div class="container-fluid">
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				</div>
+			</nav>
 
 
 			<nav class="header__nav" >
