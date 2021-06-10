@@ -84,12 +84,46 @@ a {
   font-size: 13px;
   margin-bottom: 0; }
   .footer a {
-    list-style: none;
-    text-decoration: none; }
+    list-style: none; }
 
 .footer__flexBox {
   display: flex;
   justify-content: space-around; }
+
+.facebookIcon {
+  background-image: url(../img/facebook.svg);
+  background-color: transparent;
+  width: 3vh;
+  height: 3vh;
+  background-size: 100%; }
+
+.instagramIcon {
+  background-image: url(../img/instagram.svg);
+  background-color: transparent;
+  width: 3vh;
+  height: 3vh;
+  background-size: 100%; }
+
+.emailIcon {
+  background-image: url(../img/email.svg);
+  background-color: transparent;
+  width: 3vh;
+  height: 3vh;
+  background-size: 100%; }
+
+.githubIcon {
+  background-image: url(../img/github.svg);
+  background-color: transparent;
+  width: 3vh;
+  height: 3vh;
+  background-size: 100%; }
+
+.behanceIcon {
+  background-image: url(../img/behance.svg);
+  background-color: transparent;
+  width: 3vh;
+  height: 3vh;
+  background-size: 100%; }
 
 /*GRID*/
 h1 {

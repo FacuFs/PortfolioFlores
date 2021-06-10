@@ -7,10 +7,20 @@
 	margin-bottom: 0;
 	a{
 		list-style: none;
-		text-decoration: none;
+		
 	}
 }
 .footer__flexBox{
 	display: flex;
 	justify-content: space-around;
+}
+
+@each $icono in facebook, instagram, email, github, behance{
+	.#{$icono}Icon{
+		background-image: url(../img/#{$icono}.svg);
+		background-color: transparent;
+		width: 3vh;
+		height: 3vh;
+		background-size: 100%;
+	}
 }
