@@ -4,15 +4,50 @@
 	background-color: $celeste;
 	font-family: 'Poppins', sans-serif;
 	font-size: 13px;
+	padding-top: 2vh;
 	margin-bottom: 0;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
 	a{
 		list-style: none;
 		
 	}
 }
-.footer__flexBox{
+.footer__redes{
 	display: flex;
-	justify-content: space-around;
+	flex-direction: row;
+	justify-content: center;
+	align-self: center;
+	order: 3;
+	li{
+		width: 4vh;
+		height: 4vh;
+		margin-right: 2vh;
+		margin-left: 2vh;
+	}
+}
+
+.footer__secciones{
+	list-style: none;
+	font-weight: lighter;
+	align-self: center;
+	margin-right: 2vh;
+	p{
+		font-size: medium;
+		font-weight: bold;
+	}
+}
+
+.footer__contacto{
+	align-self: center;
+	.footer__contacto--titulo{
+		font-size: medium;
+		font-weight: bold;
+	}
+
 }
 
 @each $icono in facebook, instagram, email, github, behance{
@@ -22,5 +57,62 @@
 		width: 3vh;
 		height: 3vh;
 		background-size: 100%;
+	}
+}
+
+@media (min-width: 630px){
+	.footer__redes{
+		li{
+			width: 5vh;
+			height: 5vh;
+		}
+	}
+}
+
+@media (min-width: 830px){
+	.footer{
+		background-color: $celeste;
+		font-family: 'Poppins', sans-serif;
+		font-size: 13px;
+		padding-top: 2vh;
+		margin-bottom: 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-content: center;
+		a{
+			list-style: none;
+			
+		}
+	}
+	.footer__redes{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-self: center;
+		order: 2;
+		li{
+			width: 7vh;
+			height: 7vh;
+			margin-right: 2vh;
+			margin-left: 2vh;
+		}
+	}
+	
+	.footer__secciones{
+		list-style: none;
+		font-weight: lighter;
+		p{
+			font-size: medium;
+			font-weight: bold;
+		}
+	}
+	
+	.footer__contacto{
+		.footer__contacto--titulo{
+			font-size: medium;
+			font-weight: bold;
+		}
+	
 	}
 }
