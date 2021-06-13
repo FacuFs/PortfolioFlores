@@ -34,7 +34,8 @@ html body {
   display: block;
   margin: auto;
   width: 45vh;
-  margin-top: 1vh; }
+  margin-top: 1vh;
+  margin-bottom: 1vh; }
 
 .header__nav {
   display: block;
