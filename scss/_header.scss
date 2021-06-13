@@ -18,8 +18,8 @@ $morado:#a58faa;
 	 display: flex;
 	 flex-direction: column;
 	 justify-content: center;
-	-webkit-box-shadow: 2px 11px 18px 0px rgba(0,0,0,0.46); 
-	box-shadow: 2px 11px 18px 0px rgba(0,0,0,0.46);
+	 -webkit-box-shadow: 2px 11px 18px 0px rgba(0,0,0,0.46); 
+	 box-shadow: 2px 11px 18px 0px rgba(0,0,0,0.46);
 	margin-bottom: 1em;
 	 
 }
@@ -27,7 +27,8 @@ $morado:#a58faa;
 .header__logo{
 	display: block;
   	margin: auto;
-  	width: 30vh;
+  	width: 45vh;
+	margin-top: 1vh;
 }
 
 .header__nav{
@@ -118,7 +119,8 @@ a{
 	}
 	.header__logo{
 		justify-self:start;
-		width: 10vh;
+		width: 20vh;
+		margin:1vh 0 1vh 1vh;
 	}
 	.header__nav{
 		display: block;
