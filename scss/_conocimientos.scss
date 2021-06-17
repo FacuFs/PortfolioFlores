@@ -1,0 +1,38 @@
+/*CONOCIMIENTOS*/
+.contenido__conocimientos{
+	  display: grid;
+	  grid-template-columns: 1fr;
+	  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	  gap: 20px 10px;
+	  justify-items: center;
+	  list-style: none;
+	  margin-top: 3%;
+}
+.contenido__conocimientos{
+	li{
+		height: 70vh;
+		width: 100%;
+		box-shadow: 4px 4px 15px 8px rgba(0,0,0,0.54);
+        border-radius:15px;
+		text-align: center;
+		margin-right: 4vh;
+		background-color: $celeste ;
+
+
+		img{
+			padding: 20px 0 20px 0;
+			width: 100%;
+			height: 80%;
+		}
+		meter{
+			width: 80%;
+		}
+
+	}
+}
+
+
+
+  
+
+

@@ -1,0 +1,17 @@
+/*PROYECTOS*/
+
+.contenido__proyectos{
+	display: grid;
+	margin: 10px auto;
+	width: 98%;
+	grid-row-gap: 10px;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(5,auto);
+	img{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+
