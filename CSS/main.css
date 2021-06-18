@@ -243,6 +243,7 @@ h1 {
 
 .sobreMi {
   margin: 0 10px 0 10px;
+  text-align: center;
   border-bottom: 4px double #a6d6d6;
   border-radius: 40px 40px 40px 10px; }
 
@@ -274,6 +275,23 @@ h1 {
   .contenido__conocimientos li meter {
     width: 80%;
     position: relative; }
+  .contenido__conocimientos li h4 {
+    display: none; }
+
+.html5:hover h4 {
+  display: block; }
+
+.css3:hover h4 {
+  display: block; }
+
+.javascript:hover h4 {
+  display: block; }
+
+.reactJs:hover h4 {
+  display: block; }
+
+.python:hover h4 {
+  display: block; }
 
 /*PROYECTOS*/
 .contenido__proyectos {
@@ -444,6 +462,8 @@ h1 {
       width: 35vh; }
       .contenido__conocimientos li img {
         padding: 0 0 5px 0; }
+      .contenido__conocimientos li h4 {
+        font-size: small; }
   .contenido__proyectos {
     display: grid;
     grid-template-columns: 1fr 1fr;

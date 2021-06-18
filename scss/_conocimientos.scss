@@ -28,10 +28,43 @@
 			width: 80%;
 			position: relative;
 		}
+		h4{
+			display: none;
+		}
 
 	}
 }
 
+.html5:hover{
+	h4{
+		display: block;
+	}
+	
+}
+.css3:hover{
+	h4{
+		display: block;
+	}
+	
+}
+.javascript:hover{
+	h4{
+		display: block;
+	}
+	
+}
+.reactJs:hover{
+	h4{
+		display: block;
+	}
+	
+}
+.python:hover{
+	h4{
+		display: block;
+	}
+	
+}
 
 
   
