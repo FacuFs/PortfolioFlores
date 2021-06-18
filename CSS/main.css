@@ -274,24 +274,40 @@ h1 {
     height: 80%; }
   .contenido__conocimientos li meter {
     width: 80%;
-    position: relative; }
+    position: relative;
+    display: none; }
   .contenido__conocimientos li h4 {
     display: none; }
 
 .html5:hover h4 {
   display: block; }
 
+.html5:hover meter {
+  display: inline; }
+
 .css3:hover h4 {
   display: block; }
+
+.css3:hover meter {
+  display: inline; }
 
 .javascript:hover h4 {
   display: block; }
 
+.javascript:hover meter {
+  display: inline; }
+
 .reactJs:hover h4 {
   display: block; }
 
+.reactJs:hover meter {
+  display: inline; }
+
 .python:hover h4 {
   display: block; }
+
+.python:hover meter {
+  display: inline; }
 
 /*PROYECTOS*/
 .contenido__proyectos {

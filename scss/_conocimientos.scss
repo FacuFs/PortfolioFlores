@@ -27,6 +27,7 @@
 		meter{
 			width: 80%;
 			position: relative;
+			display: none;
 		}
 		h4{
 			display: none;
@@ -39,11 +40,17 @@
 	h4{
 		display: block;
 	}
+	meter{
+		display: inline;
+	}
 	
 }
 .css3:hover{
 	h4{
 		display: block;
+	}
+	meter{
+		display: inline;
 	}
 	
 }
@@ -51,17 +58,26 @@
 	h4{
 		display: block;
 	}
+	meter{
+		display: inline;
+	}
 	
 }
 .reactJs:hover{
 	h4{
 		display: block;
 	}
+	meter{
+		display: inline;
+	}
 	
 }
 .python:hover{
 	h4{
 		display: block;
+	}
+	meter{
+		display: inline;
 	}
 	
 }
