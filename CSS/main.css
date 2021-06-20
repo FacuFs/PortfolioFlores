@@ -275,46 +275,73 @@ h1 {
   text-align: center;
   margin-right: 4vh;
   background-color: #a6d6d6; }
+  .contenido__conocimientos li h3 {
+    font-size: 3em; }
   .contenido__conocimientos li img {
-    padding: 20px 0 20px 0;
     width: 100%;
-    height: 80%; }
+    height: 75%; }
   .contenido__conocimientos li meter {
     width: 80%;
     position: relative;
     display: none; }
   .contenido__conocimientos li h4 {
-    display: none; }
+    display: none;
+    padding-bottom: 3px; }
 
-.html5:hover h4 {
-  display: block; }
+.html5:hover {
+  animation-name: parpadeo;
+  animation-duration: 0.5s;
+  animation-timing-function: linear; }
+  .html5:hover h3 {
+    font-size: large; }
+  .html5:hover h4 {
+    display: block; }
+  .html5:hover meter {
+    display: inline; }
 
-.html5:hover meter {
-  display: inline; }
+.css3:hover {
+  animation-name: parpadeo;
+  animation-duration: 0.5s;
+  animation-timing-function: linear; }
+  .css3:hover h3 {
+    font-size: large; }
+  .css3:hover h4 {
+    display: block; }
+  .css3:hover meter {
+    display: inline; }
 
-.css3:hover h4 {
-  display: block; }
+.javascript:hover {
+  animation-name: parpadeo;
+  animation-duration: 0.5s;
+  animation-timing-function: linear; }
+  .javascript:hover h3 {
+    font-size: large; }
+  .javascript:hover h4 {
+    display: block; }
+  .javascript:hover meter {
+    display: inline; }
 
-.css3:hover meter {
-  display: inline; }
+.reactJs:hover {
+  animation-name: parpadeo;
+  animation-duration: 0.5s;
+  animation-timing-function: linear; }
+  .reactJs:hover h3 {
+    font-size: large; }
+  .reactJs:hover h4 {
+    display: block; }
+  .reactJs:hover meter {
+    display: inline; }
 
-.javascript:hover h4 {
-  display: block; }
-
-.javascript:hover meter {
-  display: inline; }
-
-.reactJs:hover h4 {
-  display: block; }
-
-.reactJs:hover meter {
-  display: inline; }
-
-.python:hover h4 {
-  display: block; }
-
-.python:hover meter {
-  display: inline; }
+.python:hover {
+  animation-name: parpadeo;
+  animation-duration: 0.1s;
+  animation-timing-function: linear; }
+  .python:hover h3 {
+    font-size: large; }
+  .python:hover h4 {
+    display: block; }
+  .python:hover meter {
+    display: inline; }
 
 @media (min-width: 600px) {
   .contenido__conocimientos {
@@ -328,7 +355,7 @@ h1 {
       height: 100%;
       width: 100%; }
       .contenido__conocimientos li h3 {
-        font-size: medium; } }
+        font-size: 3em; } }
 
 @media (min-width: 830px) {
   .contenido__conocimientos {
@@ -341,8 +368,12 @@ h1 {
     .contenido__conocimientos li {
       height: 50vh;
       width: 35vh; }
+      .contenido__conocimientos li h3 {
+        font-size: 2em; }
       .contenido__conocimientos li img {
-        padding: 0 0 5px 0; }
+        padding: 0; }
+      .contenido__conocimientos li meter {
+        top: 0; }
       .contenido__conocimientos li h4 {
         font-size: small; } }
 
