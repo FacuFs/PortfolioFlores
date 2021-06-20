@@ -15,24 +15,34 @@
 
 @media (min-width: 830px) {
 	.contenido__proyectos {
+		width: 90%;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr;
 		gap: 3px 3px;
+		
 		img {
 			transition: transform 0.2s;
 		}
 		img:hover {
-			transform: scale(1.1);
+			transform: scale(1.2);
 		}
 	}
 }
 
 @media (min-width: 1200px) {
 	.contenido__proyectos {
+		width: 90%;
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 1fr 1fr;
 		gap: 3px 3px;
+		margin: auto;
+		img {
+			transition: transform 0.2s;
+		}
+		img:hover {
+			transform: scale(1.3);
+		}
 	}
 }
