@@ -1,88 +1,115 @@
 /*CONOCIMIENTOS*/
-.contenido__conocimientos{
-	  display: grid;
-	  grid-template-columns: 1fr;
-	  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-	  gap: 20px 10px;
-	  justify-items: center;
-	  list-style: none;
-	  margin-top: 3%;
+.contenido__conocimientos {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	gap: 20px 10px;
+	justify-items: center;
+	list-style: none;
+	margin-top: 3%;
 }
-.contenido__conocimientos{
-	li{
+.contenido__conocimientos {
+	li {
 		height: 70vh;
 		width: 100%;
-		box-shadow: 4px 4px 15px 8px rgba(0,0,0,0.54);
-        border-radius:15px;
+		box-shadow: 4px 4px 15px 8px rgba(0, 0, 0, 0.54);
+		border-radius: 15px;
 		text-align: center;
 		margin-right: 4vh;
-		background-color: $celeste ;
+		background-color: $celeste;
 
-
-		img{
+		img {
 			padding: 20px 0 20px 0;
 			width: 100%;
 			height: 80%;
 		}
-		meter{
+		meter {
 			width: 80%;
 			position: relative;
 			display: none;
 		}
-		h4{
+		h4 {
 			display: none;
 		}
-
 	}
 }
 
-.html5:hover{
-	h4{
+.html5:hover {
+	h4 {
 		display: block;
 	}
-	meter{
+	meter {
 		display: inline;
 	}
-	
 }
-.css3:hover{
-	h4{
+.css3:hover {
+	h4 {
 		display: block;
 	}
-	meter{
+	meter {
 		display: inline;
 	}
-	
 }
-.javascript:hover{
-	h4{
+.javascript:hover {
+	h4 {
 		display: block;
 	}
-	meter{
+	meter {
 		display: inline;
 	}
-	
 }
-.reactJs:hover{
-	h4{
+.reactJs:hover {
+	h4 {
 		display: block;
 	}
-	meter{
+	meter {
 		display: inline;
 	}
-	
 }
-.python:hover{
-	h4{
+.python:hover {
+	h4 {
 		display: block;
 	}
-	meter{
+	meter {
 		display: inline;
 	}
-	
 }
 
+@media (min-width: 600px) {
+	.contenido__conocimientos {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		gap: 10px 10px;
+		justify-items: center;
+		list-style: none;
+		li {
+			height: 100%;
+			width: 100%;
+			h3 {
+				font-size: medium;
+			}
+		}
+	}
+}
 
-  
-
-
+@media (min-width: 830px) {
+	.contenido__conocimientos {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		list-style: none;
+		margin-left: 5vh;
+		margin-right: 5vh;
+		li {
+			height: 50vh;
+			width: 35vh;
+			img {
+				padding: 0 0 5px 0;
+			}
+			h4 {
+				font-size: small;
+			}
+		}
+	}
+}

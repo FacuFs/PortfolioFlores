@@ -1,59 +1,42 @@
-/*GRID*/
-$beish:#ededd0;
-$azulOsc:#143b52;
-$celeste:#a6d6d6;
-$morado:#a58faa;
+/*INDEX*/
+$beish: #ededd0;
+$azulOsc: #143b52;
+$celeste: #a6d6d6;
+$morado: #a58faa;
 
-h1{
+h1 {
 	text-align: center;
-	font-family: 'Noto Sans JP', sans-serif;
-	
+	font-family: "Noto Sans JP", sans-serif;
 }
 
-/*INDEX*/
-.contenidoIndex{
+.contenidoIndex {
 	display: grid;
 	grid-row-gap: 30px;
 	grid-template-columns: 1fr;
-	grid-template-rows: repeat(auto,auto);
-	h2{
-
+	grid-template-rows: repeat(auto, auto);
+	h2 {
 		text-align: center;
-		border: 4px double $celeste;
-		border-radius: 37px 40px 0px 40px;
-		margin:15px 10px 15px 10px;
+		margin: 15px 10px 15px 10px;
 	}
 }
 
-
-
-.sobreMi{
+.sobreMi {
 	margin: 0 10px 0 10px;
 	text-align: center;
-	border-bottom: 4px double $celeste;
-	border-radius: 40px 40px 40px 10px;
 }
 
-.carousel-item{
+.carousel-item {
 	transition: transform 2s ease-in-out;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-	
-	
-
-
+@media (min-width: 830px) {
+	.contenidoIndex {
+		display: grid;
+		grid-template-columns: 20% 80%;
+		grid-template-rows: 1fr;
+		gap: 5px 5px;
+	}
+	h2 {
+		align-self: center;
+	}
+}
