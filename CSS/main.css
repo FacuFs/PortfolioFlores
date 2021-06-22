@@ -449,18 +449,19 @@ h1 {
   background: #e6e6e6;
   border-radius: 8px;
   box-shadow: 0 0 40px -10px #000;
-  margin: calc(50vh - 220px) auto;
+  margin: 70px auto;
   padding: 20px 30px;
   max-width: calc(100vw - 40px);
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   position: relative; }
-  .form h2 {
+  .form h1 {
     margin: 10px 0;
     padding-bottom: 10px;
     width: 180px;
     color: #78788c;
-    border-bottom: 3px solid #78788c; }
+    border-bottom: 3px solid #78788c;
+    font-size: 2em; }
   .form input {
     width: 100%;
     padding: 10px;
@@ -481,23 +482,23 @@ h1 {
     font-size: 14px;
     color: #5a5a5a; }
   .form button {
-    float: right;
+    position: absolute;
+    left: 250px;
     padding: 8px 12px;
     margin: 8px 0 0;
     font-family: "Montserrat", sans-serif;
     border: 2px solid #78788c;
-    background: 0;
+    background-color: #e6e6e6;
     color: #5a5a6e;
     cursor: pointer;
     transition: all 0.3s;
-    z-index: 10000000; }
+    z-index: 3; }
   .form button:hover {
     background: #a6d6d6;
     color: #000; }
   .form div {
-    content: "Hi";
     position: absolute;
-    bottom: -15px;
+    bottom: -30px;
     right: -20px;
     background: #50505a;
     color: #fff;
@@ -505,10 +506,7 @@ h1 {
     padding: 16px 4px 16px 0;
     border-radius: 6px;
     font-size: 13px;
-    box-shadow: 10px 10px 40px -14px #000; }
+    box-shadow: 10px 10px 40px -14px #000;
+    z-index: 2; }
   .form span {
     margin: 0 5px 0 15px; }
-
-.contenido__flexForm {
-  display: flex;
-  justify-content: center; }
