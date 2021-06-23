@@ -6,7 +6,7 @@
 	background: #e6e6e6;
 	border-radius: 8px;
 	box-shadow: 0 0 40px -10px #000;
-	margin:70px auto;
+	margin: 70px auto;
 	padding: 20px 30px;
 	max-width: calc(100vw - 40px);
 	box-sizing: border-box;
@@ -55,7 +55,6 @@
 		cursor: pointer;
 		transition: all 0.3s;
 		z-index: 3;
-		
 	}
 	button:hover {
 		background: $celeste;
@@ -73,11 +72,8 @@
 		font-size: 13px;
 		box-shadow: 10px 10px 40px -14px #000;
 		z-index: 2;
-		
 	}
 	span {
 		margin: 0 5px 0 15px;
 	}
 }
-
-
